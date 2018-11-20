@@ -22,7 +22,7 @@ public class PilkaDoSportu extends Pilka {
     @Override
     public int wysokoscOdbicia(float wysokoscPoczatkowa) {
         wynik=wysokoscPoczatkowa*promien*wspSprezystosci;
-        System.out.println("Wysokosc odbicia dla tej pilki wynosi " + wynik);
+        System.out.println("Wysokosc odbicia dla pilki o promieniu " + promien + " wynosi " + wynik);
         return 0;
     }
 }

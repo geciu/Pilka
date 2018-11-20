@@ -13,8 +13,8 @@ public abstract class Pilka {
 
 
 
-    public  void aktualnaIloscPilek(int n){
-        n = liczbaUtworzonychPilek;
+    public  void aktualnaIloscPilek(){
+        liczbaUtworzonychPilek++;
         System.out.println("Aktualna ilosc utworzonych pilek: " + liczbaUtworzonychPilek);
     }
 

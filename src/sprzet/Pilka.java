@@ -8,13 +8,13 @@ public abstract class Pilka {
 
     Pilka(int promien){
         this.promien=promien;
-        liczbaUtworzonychPilek++;
+        liczbaUtworzonychPilek++;                   //liczba utworzonych piłek się zwiększa
     }
 
 
 
     public  void aktualnaIloscPilek(){
-        liczbaUtworzonychPilek++;
+        liczbaUtworzonychPilek++;                   //bez tego mielibyśmy na odpowiedzi cały czas jedynkę
         System.out.println("Aktualna ilosc utworzonych pilek: " + liczbaUtworzonychPilek);
     }
 
